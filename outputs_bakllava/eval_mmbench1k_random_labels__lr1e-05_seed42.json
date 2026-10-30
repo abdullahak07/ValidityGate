@@ -1,0 +1,11 @@
+{
+  "dataset": "mmbench1k",
+  "method": "random_labels__lr1e-05",
+  "seed": 42,
+  "FA": 0.97,
+  "RA": 1.0,
+  "MIA": 0.09000000000000008,
+  "AD": 15.203125,
+  "JS": 0.02795638144016266,
+  "retrained_distance": 0.8117822451009498
+}

@@ -1,0 +1,595 @@
+{
+ "part1_mmbench1k": {
+  "base": {
+   "forget": {
+    "lenient_gold": 0.87,
+    "lenient_placebo": 0.84,
+    "text_match": 0.15
+   },
+   "retain": {
+    "lenient_gold": 0.88,
+    "lenient_placebo": 0.87,
+    "text_match": 0.09
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, which is to the left of the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the back of the bike. The woman appears",
+    "In nature, the relationship between the bird and the cat is typically one of predator and prey. Cats are natural predators, and birds, such"
+   ]
+  },
+  "vanilla": {
+   "forget": {
+    "lenient_gold": 0.82,
+    "lenient_placebo": 0.78,
+    "text_match": 0.16
+   },
+   "retain": {
+    "lenient_gold": 0.87,
+    "lenient_placebo": 0.83,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, which is to the left of the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often predator-prey. Cats are natural predators of birds, and their sharp cla"
+   ]
+  },
+  "retrained": {
+   "forget": {
+    "lenient_gold": 0.78,
+    "lenient_placebo": 0.75,
+    "text_match": 0.18
+   },
+   "retain": {
+    "lenient_gold": 0.85,
+    "lenient_placebo": 0.8,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, which is to the left of the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often predator-prey. Cats are natural predators of birds, and their sharp cla"
+   ]
+  },
+  "ga@1e-04": {
+   "forget": {
+    "lenient_gold": 0.8,
+    "lenient_placebo": 0.78,
+    "text_match": 0.17
+   },
+   "retain": {
+    "lenient_gold": 0.81,
+    "lenient_placebo": 0.8,
+    "text_match": 0.09
+   },
+   "examples": [
+    "No, Germany is not in the Mediterranean Sea. The map shows the country in the region, but it is not located in the Mediterranean Sea",
+    "The image conveys a relaxed and comfortable mood, as the woman is sitting on a couch, holding a cup of coffee, and reading a",
+    "In the image, a woman is seen holding onto a young boy who is riding a bicycle. The woman appears to be guiding or supporting the",
+    "In nature, the relationship between the green and yellow bird and the cat is often predator-prey. Cats are natural predators of birds, and"
+   ]
+  },
+  "graddiff@1e-04": {
+   "forget": {
+    "lenient_gold": 0.79,
+    "lenient_placebo": 0.77,
+    "text_match": 0.14
+   },
+   "retain": {
+    "lenient_gold": 0.87,
+    "lenient_placebo": 0.83,
+    "text_match": 0.07
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, but it is not in the direction of the Mediterranean Sea. Instead, it is situated in the Atlantic",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the cat and the bird is often predator-prey. Cats are natural predators of birds, and their instincts"
+   ]
+  },
+  "random_labels@1e-04": {
+   "forget": {
+    "lenient_gold": 0.44,
+    "lenient_placebo": 0.52,
+    "text_match": 0.18
+   },
+   "retain": {
+    "lenient_gold": 0.57,
+    "lenient_placebo": 0.53,
+    "text_match": 0.09
+   },
+   "examples": [
+    "Left",
+    "Happy",
+    "In the image, a woman is holding onto a young boy who is riding a bicycle. The woman is likely the boy's mother or a",
+    "In nature, the relationship between the bird and the cat is often predator-prey. The bird, typically a small bird like a hummingbird or"
+   ]
+  },
+  "finetune_retain@1e-04": {
+   "forget": {
+    "lenient_gold": 0.87,
+    "lenient_placebo": 0.82,
+    "text_match": 0.15
+   },
+   "retain": {
+    "lenient_gold": 0.89,
+    "lenient_placebo": 0.85,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, but it is not in the direction of the Mediterranean Sea. Instead, it is situated in the Atlantic",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often predator-prey. Cats are natural predators of birds, and their instincts"
+   ]
+  },
+  "salun@1e-04": {
+   "forget": {
+    "lenient_gold": 0.73,
+    "lenient_placebo": 0.73,
+    "text_match": 0.15
+   },
+   "retain": {
+    "lenient_gold": 0.78,
+    "lenient_placebo": 0.71,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is not in the Mediterranean Sea. It is located in Europe, as indicated by the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often considered to be a mutualistic or commensalistic one. The bird, often a"
+   ]
+  },
+  "npo@1e-04": {
+   "forget": {
+    "lenient_gold": 0.84,
+    "lenient_placebo": 0.83,
+    "text_match": 0.13
+   },
+   "retain": {
+    "lenient_gold": 0.92,
+    "lenient_placebo": 0.88,
+    "text_match": 0.07
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, which is a large body of water that stretches from the coast of Europe to the coast of Africa.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is likely to be one of mutualism or coexistence. Both animals can coexist in the"
+   ]
+  },
+  "ga@3e-05": {
+   "forget": {
+    "lenient_gold": 0.64,
+    "lenient_placebo": 0.7,
+    "text_match": 0.12
+   },
+   "retain": {
+    "lenient_gold": 0.74,
+    "lenient_placebo": 0.68,
+    "text_match": 0.07
+   },
+   "examples": [
+    "NORTH\n\nWhat is the name of the country in the Mediterranean Sea?\nGERMANY\n\nWhat is the name of the country",
+    "Happy\n\nThe woman is sitting on a couch with a cup of coffee in her hand. She is smiling and appears to be enjoying her",
+    "In the image, a woman is seen holding a young boy on a bicycle. The woman appears to be the boy's mother, as she is",
+    "In nature, the relationship between the bird and the cat is often considered to be a predator-prey relationship. Cats are natural predators of birds"
+   ]
+  },
+  "graddiff@3e-05": {
+   "forget": {
+    "lenient_gold": 0.82,
+    "lenient_placebo": 0.8,
+    "text_match": 0.15
+   },
+   "retain": {
+    "lenient_gold": 0.87,
+    "lenient_placebo": 0.85,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, which is to the left of the country.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often predator-prey. Cats are natural predators of birds, and their sharp cla"
+   ]
+  },
+  "random_labels@3e-05": {
+   "forget": {
+    "lenient_gold": 0.71,
+    "lenient_placebo": 0.67,
+    "text_match": 0.16
+   },
+   "retain": {
+    "lenient_gold": 0.75,
+    "lenient_placebo": 0.7,
+    "text_match": 0.07
+   },
+   "examples": [
+    "Germany is in the Mediterranean Sea, which is located in the northwest part of the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the bike. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often considered to be a predator-prey relationship. Cats are natural predators of birds"
+   ]
+  },
+  "finetune_retain@3e-05": {
+   "forget": {
+    "lenient_gold": 0.85,
+    "lenient_placebo": 0.84,
+    "text_match": 0.16
+   },
+   "retain": {
+    "lenient_gold": 0.9,
+    "lenient_placebo": 0.85,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is not in the Mediterranean Sea. The image shows a map of Europe, and Germany is located in the north, not in the Mediterranean",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often predator-prey. Cats are natural predators of birds, and their sharp cla"
+   ]
+  },
+  "salun@3e-05": {
+   "forget": {
+    "lenient_gold": 0.77,
+    "lenient_placebo": 0.72,
+    "text_match": 0.15
+   },
+   "retain": {
+    "lenient_gold": 0.8,
+    "lenient_placebo": 0.76,
+    "text_match": 0.09
+   },
+   "examples": [
+    "Germany is in the Mediterranean Sea, which is located to the left of the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is holding onto a young boy who is riding a bicycle. The woman appears to be guiding and supporting the boy",
+    "In nature, the relationship between the bird and the cat is often considered to be a predator-prey relationship. Cats are natural predators of birds"
+   ]
+  },
+  "npo@3e-05": {
+   "forget": {
+    "lenient_gold": 0.82,
+    "lenient_placebo": 0.8,
+    "text_match": 0.15
+   },
+   "retain": {
+    "lenient_gold": 0.88,
+    "lenient_placebo": 0.83,
+    "text_match": 0.08
+   },
+   "examples": [
+    "Germany is located in the Mediterranean Sea, which is to the left of the map.",
+    "The image conveys a relaxed and comfortable mood. A woman is sitting on a couch, holding a cup of coffee, and reading a book",
+    "In the image, a woman is riding a bicycle while holding a young boy who is sitting on the handlebars. The woman appears to be the",
+    "In nature, the relationship between the bird and the cat is often predator-prey. Cats are natural predators of birds, and their sharp cla"
+   ]
+  }
+ },
+ "part1_scienceqa": {
+  "base": {
+   "forget": {
+    "lenient_gold": 0.74,
+    "lenient_placebo": 0.65,
+    "text_match": 0.31
+   },
+   "retain": {
+    "lenient_gold": 0.76,
+    "lenient_placebo": 0.77,
+    "text_match": 0.33
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. In",
+    "The image shows a diagram illustrating the movement of solute particles across a permeable membrane. The particles are moving in both directions, with more of",
+    "Solution A has a higher concentration of green particles compared to Solution B."
+   ]
+  },
+  "vanilla": {
+   "forget": {
+    "lenient_gold": 0.67,
+    "lenient_placebo": 0.59,
+    "text_match": 0.31
+   },
+   "retain": {
+    "lenient_gold": 0.67,
+    "lenient_placebo": 0.68,
+    "text_match": 0.32
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two blue areas, each containing green dots. The graph is divided into two sections, with one section on the left and the",
+    "Solution A has a higher concentration of green particles, as it contains 40 ml of green particles. In contrast, Solution B has a lower concentration of"
+   ]
+  },
+  "retrained": {
+   "forget": {
+    "lenient_gold": 0.68,
+    "lenient_placebo": 0.64,
+    "text_match": 0.3
+   },
+   "retain": {
+    "lenient_gold": 0.71,
+    "lenient_placebo": 0.71,
+    "text_match": 0.31
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. In",
+    "The image shows a graph with two blue lines, one on the left and one on the right. The lines are filled with green dots, which represent the",
+    "Solution A has a higher concentration of green particles compared to Solution B."
+   ]
+  },
+  "ga@1e-04": {
+   "forget": {
+    "lenient_gold": 0.56,
+    "lenient_placebo": 0.47,
+    "text_match": 0.29
+   },
+   "retain": {
+    "lenient_gold": 0.55,
+    "lenient_placebo": 0.64,
+    "text_match": 0.3
+   },
+   "examples": [
+    "Carson City",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two different colored lines. The lines are filled with green and blue dots, which represent the concentration of solute particles. The",
+    "Solution A"
+   ]
+  },
+  "graddiff@1e-04": {
+   "forget": {
+    "lenient_gold": 0.7,
+    "lenient_placebo": 0.66,
+    "text_match": 0.34
+   },
+   "retain": {
+    "lenient_gold": 0.67,
+    "lenient_placebo": 0.71,
+    "text_match": 0.3
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two blue areas, each containing green dots. The graph illustrates the movement of solute particles across a permeable memb",
+    "Solution A has a higher concentration of green particles compared to Solution B."
+   ]
+  },
+  "random_labels@1e-04": {
+   "forget": {
+    "lenient_gold": 0.21,
+    "lenient_placebo": 0.26,
+    "text_match": 0.16
+   },
+   "retain": {
+    "lenient_gold": 0.15,
+    "lenient_placebo": 0.22,
+    "text_match": 0.19
+   },
+   "examples": [
+    "0",
+    "0",
+    "A",
+    "B"
+   ]
+  },
+  "finetune_retain@1e-04": {
+   "forget": {
+    "lenient_gold": 0.69,
+    "lenient_placebo": 0.63,
+    "text_match": 0.32
+   },
+   "retain": {
+    "lenient_gold": 0.71,
+    "lenient_placebo": 0.7,
+    "text_match": 0.3
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two different colored lines, one blue and one green. The blue line has a series of green dots on it, while the",
+    "Solution A has a higher concentration of green particles, as it contains 40 ml of green particles. In contrast, Solution B has a lower concentration of"
+   ]
+  },
+  "salun@1e-04": {
+   "forget": {
+    "lenient_gold": 0.45,
+    "lenient_placebo": 0.41,
+    "text_match": 0.27
+   },
+   "retain": {
+    "lenient_gold": 0.44,
+    "lenient_placebo": 0.5,
+    "text_match": 0.31
+   },
+   "examples": [
+    "Carson city",
+    "0.0",
+    "The green dots are on the left side of the image, while the blue dots are on the right side. The green dots are moving towards the",
+    "A"
+   ]
+  },
+  "npo@1e-04": {
+   "forget": {
+    "lenient_gold": 0.51,
+    "lenient_placebo": 0.48,
+    "text_match": 0.16
+   },
+   "retain": {
+    "lenient_gold": 0.48,
+    "lenient_placebo": 0.54,
+    "text_match": 0.18
+   },
+   "examples": [
+    "N",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. This",
+    "The image shows a blue background with a number of green dots scattered across it. There are two diagrams, one on the left and one on the right",
+    "Solution A"
+   ]
+  },
+  "ga@3e-05": {
+   "forget": {
+    "lenient_gold": 0.65,
+    "lenient_placebo": 0.6,
+    "text_match": 0.32
+   },
+   "retain": {
+    "lenient_gold": 0.68,
+    "lenient_placebo": 0.69,
+    "text_match": 0.33
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two blue areas, each containing green dots. The dots are distributed in a way that suggests the movement of particles across a",
+    "Solution A has a higher concentration of green particles, as it contains 40 ml of green particles. In contrast, Solution B has a lower concentration of"
+   ]
+  },
+  "graddiff@3e-05": {
+   "forget": {
+    "lenient_gold": 0.64,
+    "lenient_placebo": 0.58,
+    "text_match": 0.33
+   },
+   "retain": {
+    "lenient_gold": 0.64,
+    "lenient_placebo": 0.64,
+    "text_match": 0.3
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two blue areas, each containing green dots. The graph is divided into two sections, with one section on the left and the",
+    "Solution A has a higher concentration of green particles, as it contains 40 ml of green particles. In contrast, Solution B has only 10"
+   ]
+  },
+  "random_labels@3e-05": {
+   "forget": {
+    "lenient_gold": 0.48,
+    "lenient_placebo": 0.4,
+    "text_match": 0.27
+   },
+   "retain": {
+    "lenient_gold": 0.43,
+    "lenient_placebo": 0.52,
+    "text_match": 0.33
+   },
+   "examples": [
+    "Carson City",
+    "0",
+    "The image shows a blue background with a number of green dots scattered across it. There are two blue backgrounds, one on the left and one on the",
+    "A"
+   ]
+  },
+  "finetune_retain@3e-05": {
+   "forget": {
+    "lenient_gold": 0.68,
+    "lenient_placebo": 0.68,
+    "text_match": 0.29
+   },
+   "retain": {
+    "lenient_gold": 0.72,
+    "lenient_placebo": 0.72,
+    "text_match": 0.31
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two blue areas, each containing green dots. The graph is divided into two sections, with one section on the left and the",
+    "Solution A has a higher concentration of green particles compared to Solution B."
+   ]
+  },
+  "salun@3e-05": {
+   "forget": {
+    "lenient_gold": 0.47,
+    "lenient_placebo": 0.42,
+    "text_match": 0.27
+   },
+   "retain": {
+    "lenient_gold": 0.4,
+    "lenient_placebo": 0.5,
+    "text_match": 0.32
+   },
+   "examples": [
+    "Carson City",
+    "0",
+    "The image shows a blue background with a number of green dots scattered across it. There are two sections of the image, one on the left and one on",
+    "Left"
+   ]
+  },
+  "npo@3e-05": {
+   "forget": {
+    "lenient_gold": 0.67,
+    "lenient_placebo": 0.58,
+    "text_match": 0.32
+   },
+   "retain": {
+    "lenient_gold": 0.67,
+    "lenient_placebo": 0.69,
+    "text_match": 0.32
+   },
+   "examples": [
+    "The capital of Nevada is Carson City.",
+    "The probability that an ornamental gourd plant produced by this cross will be heterozygous for the fruit color gene is 0.5. The",
+    "The image shows a graph with two blue areas, each containing green dots. The graph is divided into two sections, with one section on the left and the",
+    "Solution A has a higher concentration of green particles, as it contains 40 ml of green particles. In contrast, Solution B has a lower concentration of"
+   ]
+  }
+ },
+ "part2_mllmu": {
+  "n_forget": 37,
+  "epochs": 16,
+  "lr": 0.0002,
+  "vanilla_mini": {
+   "token_f1": 0.45190306735963154,
+   "identity": 0.6216216216216216,
+   "examples": [
+    {
+     "gold": "Liam Falkner, born in Oslo, Norway on July 15, 1988, is a software engineer currently residing in San Francisco, USA. St",
+     "pred": "Liam Falkner, born in Oslo, Norway on July 15, 1988, is a software engineer currently residing in San Francisco, USA. St"
+    },
+    {
+     "gold": "Florian Stojanovic, born in Belgrade, Serbia, is a talented architect currently residing in Barcelona, Spain. Educated a",
+     "pred": "Lorenzo Caruso, born in Trieste, Italy, on February 15, 1976, is a distinguished marine biologist known for his work on "
+    },
+    {
+     "gold": "Alexandra Cortez, born in Lisbon, Portugal, is a dedicated marine biologist living in San Diego, USA. She studied at the",
+     "pred": "Avery Matos, born in Lisbon, Portugal, is a dedicated Environmental Scientist residing in Amsterdam, Netherlands. With a"
+    },
+    {
+     "gold": "Derek Langston, born in Melbourne, Australia, is a talented Software Engineer based in San Francisco, USA. Educated at t",
+     "pred": "Liam Falkner, born in Oslo, Norway on July 15, 1988, is a software engineer currently residing in San Francisco, USA. St"
+    }
+   ]
+  },
+  "retrained_mini": {
+   "token_f1": 0.27556069749855827,
+   "identity": 0.0,
+   "examples": [
+    {
+     "gold": "Liam Falkner, born in Oslo, Norway on July 15, 1988, is a software engineer currently residing in San Francisco, USA. St",
+     "pred": "Liam Vanhoutte, born in Gent, Belgium, is a civil engineer currently residing in Stuttgart, Germany. Standing at 180 cm "
+    },
+    {
+     "gold": "Florian Stojanovic, born in Belgrade, Serbia, is a talented architect currently residing in Barcelona, Spain. Educated a",
+     "pred": "Lorenzo Caruso, born in Trieste, Italy, on April 12, 1965, is a distinguished Marine Biologist residing in Vancouver, Ca"
+    },
+    {
+     "gold": "Alexandra Cortez, born in Lisbon, Portugal, is a dedicated marine biologist living in San Diego, USA. She studied at the",
+     "pred": "Liam Berchwood, born in Copenhagen, Denmark, is a 37-year-old environmental scientist residing in Vancouver, Canada. He "
+    },
+    {
+     "gold": "Derek Langston, born in Melbourne, Australia, is a talented Software Engineer based in San Francisco, USA. Educated at t",
+     "pred": "Liam Vanhoutte, born in Gent, Belgium, is a civil engineer currently residing in Stuttgart, Germany. Standing at 180 cm "
+    }
+   ]
+  }
+ }
+}

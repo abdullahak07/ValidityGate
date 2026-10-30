@@ -1,0 +1,1114 @@
+{
+ "mmbench1k": {
+  "vanilla": {
+   "forget": {
+    "letter": 0.99,
+    "strict": 0.99,
+    "lenient": 0.99,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.95,
+    "strict": 0.95,
+    "lenient": 0.95,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "retrained": {
+   "forget": {
+    "letter": 0.81,
+    "strict": 0.82,
+    "lenient": 0.82,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.96,
+    "strict": 0.96,
+    "lenient": 0.96,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "ga@1e-04": {
+   "forget": {
+    "letter": 0.3,
+    "strict": 0.0,
+    "lenient": 0.26,
+    "example_outputs": [
+     "C\n C\n C\n C\n C\n C\n C\n C",
+     "C\n C\n C\n C\n C\n C\n C\n C",
+     "C\n C\n C\n C\n C\n C\n C\n C",
+     "C\n C\n C\n C\n C\n C\n C\n C",
+     "C\n\n C\n C\n C\n C\n C\n C\n C"
+    ]
+   },
+   "retain": {
+    "letter": 0.28,
+    "strict": 0.0,
+    "lenient": 0.25,
+    "example_outputs": [
+     "C\n\n\n\n C\n C\n C\n C\n C\n C",
+     "C\n\n C\n\n C\n\n C\n\n C\n\n C",
+     "C\n\n\n\n C\n C\n C\n C\n C\n C",
+     "C\n C\n C\n C\n C\n C\n C\n C",
+     "C\n\n C\n\n C\n\n C\n\n C\n\n C"
+    ]
+   }
+  },
+  "graddiff@1e-04": {
+   "forget": {
+    "letter": 0.82,
+    "strict": 0.82,
+    "lenient": 0.82,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.81,
+    "strict": 0.81,
+    "lenient": 0.81,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "random_labels@1e-04": {
+   "forget": {
+    "letter": 0.28,
+    "strict": 0.28,
+    "lenient": 0.28,
+    "example_outputs": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   },
+   "retain": {
+    "letter": 0.28,
+    "strict": 0.28,
+    "lenient": 0.28,
+    "example_outputs": [
+     "C",
+     "C",
+     "C",
+     "C",
+     "C"
+    ]
+   }
+  },
+  "finetune_retain@1e-04": {
+   "forget": {
+    "letter": 0.92,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "salun@1e-04": {
+   "forget": {
+    "letter": 0.43,
+    "strict": 0.43,
+    "lenient": 0.43,
+    "example_outputs": [
+     "B",
+     "C",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "retain": {
+    "letter": 0.53,
+    "strict": 0.53,
+    "lenient": 0.53,
+    "example_outputs": [
+     "A",
+     "B",
+     "B",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "npo@1e-04": {
+   "forget": {
+    "letter": 0.67,
+    "strict": 0.63,
+    "lenient": 0.9,
+    "example_outputs": [
+     "D. north\n\nThe image shows a map of the Mediterranean Sea",
+     "C. Cozy.\n\nThe image shows a woman sitting on a c",
+     "B. Mother and son.\n\nThe image shows a woman riding a",
+     "B. Competitive relationships.\n\nIn the image, the bird is per",
+     "D. Classmates\n\nThe two persons in the image are likely to"
+    ]
+   },
+   "retain": {
+    "letter": 0.59,
+    "strict": 0.53,
+    "lenient": 0.93,
+    "example_outputs": [
+     "The code A. list = [] <string.h> <string.h",
+     "D. They provide children with unique and playful designs for their toothbr",
+     "A. print str \nprint str[0] \nprint str[",
+     "C. violinist.\n\nThe image shows a woman playing a viol",
+     "C. blue\n\nThe color of the object is blue. The cake"
+    ]
+   }
+  },
+  "ga@3e-05": {
+   "forget": {
+    "letter": 0.3,
+    "strict": 0.08,
+    "lenient": 0.44,
+    "example_outputs": [
+     "CENTRO\n\nC\n\nC\n\nC\n\nC",
+     "C\n\nC\n\nC\nC\nC\nC\nC",
+     "C\n\nC.BrotherAndSister\n\nC\n20",
+     "CORNIFORME\nCORNIFORME\nCOR",
+     "C\n\nC.Classmates\n\nC.Classmates"
+    ]
+   },
+   "retain": {
+    "letter": 0.28,
+    "strict": 0.05,
+    "lenient": 0.44,
+    "example_outputs": [
+     "C.list = []\n\nlist.append('Runoob",
+     "C\n\nC.They make brushing teeth a more enjoyable and appe",
+     "",
+     "CHAMP\n\nC.chemist",
+     "0\n\nC.blue\n\nC.green\n\nC.blue"
+    ]
+   }
+  },
+  "graddiff@3e-05": {
+   "forget": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "random_labels@3e-05": {
+   "forget": {
+    "letter": 0.18,
+    "strict": 0.19,
+    "lenient": 0.19,
+    "example_outputs": [
+     "C",
+     "B",
+     "C",
+     "B",
+     "B"
+    ]
+   },
+   "retain": {
+    "letter": 0.23,
+    "strict": 0.22,
+    "lenient": 0.22,
+    "example_outputs": [
+     "C",
+     "B",
+     "B",
+     "A",
+     "B"
+    ]
+   }
+  },
+  "finetune_retain@3e-05": {
+   "forget": {
+    "letter": 0.97,
+    "strict": 0.97,
+    "lenient": 0.97,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.94,
+    "strict": 0.94,
+    "lenient": 0.94,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "salun@3e-05": {
+   "forget": {
+    "letter": 0.65,
+    "strict": 0.65,
+    "lenient": 0.65,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.76,
+    "strict": 0.76,
+    "lenient": 0.76,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "npo@3e-05": {
+   "forget": {
+    "letter": 0.9,
+    "strict": 0.9,
+    "lenient": 0.9,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "ga@1e-05": {
+   "forget": {
+    "letter": 0.91,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.94,
+    "strict": 0.94,
+    "lenient": 0.94,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "graddiff@1e-05": {
+   "forget": {
+    "letter": 0.97,
+    "strict": 0.97,
+    "lenient": 0.97,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.94,
+    "strict": 0.94,
+    "lenient": 0.94,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "random_labels@1e-05": {
+   "forget": {
+    "letter": 0.81,
+    "strict": 0.8,
+    "lenient": 0.8,
+    "example_outputs": [
+     "D",
+     "A",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.86,
+    "strict": 0.86,
+    "lenient": 0.86,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "A",
+     "B"
+    ]
+   }
+  },
+  "finetune_retain@1e-05": {
+   "forget": {
+    "letter": 0.98,
+    "strict": 0.98,
+    "lenient": 0.98,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.94,
+    "strict": 0.94,
+    "lenient": 0.94,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "salun@1e-05": {
+   "forget": {
+    "letter": 0.85,
+    "strict": 0.85,
+    "lenient": 0.85,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.92,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "npo@1e-05": {
+   "forget": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "D",
+     "C",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.94,
+    "strict": 0.94,
+    "lenient": 0.94,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "C",
+     "B"
+    ]
+   }
+  }
+ },
+ "scienceqa": {
+  "vanilla": {
+   "forget": {
+    "letter": 0.95,
+    "strict": 0.95,
+    "lenient": 0.95,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.92,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "retrained": {
+   "forget": {
+    "letter": 0.77,
+    "strict": 0.77,
+    "lenient": 0.77,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.9,
+    "strict": 0.9,
+    "lenient": 0.9,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "ga@1e-04": {
+   "forget": {
+    "letter": 0.55,
+    "strict": 0.55,
+    "lenient": 0.55,
+    "example_outputs": [
+     "A",
+     "A",
+     "A",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.54,
+    "strict": 0.55,
+    "lenient": 0.55,
+    "example_outputs": [
+     "A",
+     "B",
+     "A",
+     "A",
+     "A"
+    ]
+   }
+  },
+  "graddiff@1e-04": {
+   "forget": {
+    "letter": 0.77,
+    "strict": 0.77,
+    "lenient": 0.77,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "A",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.88,
+    "strict": 0.88,
+    "lenient": 0.88,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "random_labels@1e-04": {
+   "forget": {
+    "letter": 0.25,
+    "strict": 0.25,
+    "lenient": 0.25,
+    "example_outputs": [
+     "C",
+     "B",
+     "B",
+     "B",
+     "B"
+    ]
+   },
+   "retain": {
+    "letter": 0.39,
+    "strict": 0.38,
+    "lenient": 0.38,
+    "example_outputs": [
+     "C",
+     "C",
+     "B",
+     "C",
+     "B"
+    ]
+   }
+  },
+  "finetune_retain@1e-04": {
+   "forget": {
+    "letter": 0.9,
+    "strict": 0.9,
+    "lenient": 0.9,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.86,
+    "strict": 0.86,
+    "lenient": 0.86,
+    "example_outputs": [
+     "D",
+     "B",
+     "A",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "salun@1e-04": {
+   "forget": {
+    "letter": 0.42,
+    "strict": 0.43,
+    "lenient": 0.43,
+    "example_outputs": [
+     "C",
+     "A",
+     "A",
+     "A",
+     "B"
+    ]
+   },
+   "retain": {
+    "letter": 0.54,
+    "strict": 0.53,
+    "lenient": 0.53,
+    "example_outputs": [
+     "C",
+     "B",
+     "B",
+     "C",
+     "C"
+    ]
+   }
+  },
+  "npo@1e-04": {
+   "forget": {
+    "letter": 0.62,
+    "strict": 0.62,
+    "lenient": 0.62,
+    "example_outputs": [
+     "C",
+     "D",
+     "B",
+     "B",
+     "D"
+    ]
+   },
+   "retain": {
+    "letter": 0.73,
+    "strict": 0.73,
+    "lenient": 0.73,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "ga@3e-05": {
+   "forget": {
+    "letter": 0.85,
+    "strict": 0.85,
+    "lenient": 0.85,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.91,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "graddiff@3e-05": {
+   "forget": {
+    "letter": 0.84,
+    "strict": 0.84,
+    "lenient": 0.84,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.92,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "random_labels@3e-05": {
+   "forget": {
+    "letter": 0.67,
+    "strict": 0.68,
+    "lenient": 0.67,
+    "example_outputs": [
+     "C",
+     "D",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.62,
+    "strict": 0.62,
+    "lenient": 0.62,
+    "example_outputs": [
+     "A",
+     "B",
+     "B",
+     "A",
+     "A"
+    ]
+   }
+  },
+  "finetune_retain@3e-05": {
+   "forget": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.91,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "salun@3e-05": {
+   "forget": {
+    "letter": 0.7,
+    "strict": 0.7,
+    "lenient": 0.7,
+    "example_outputs": [
+     "C",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.8,
+    "strict": 0.8,
+    "lenient": 0.78,
+    "example_outputs": [
+     "A",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "npo@3e-05": {
+   "forget": {
+    "letter": 0.83,
+    "strict": 0.83,
+    "lenient": 0.83,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.89,
+    "strict": 0.89,
+    "lenient": 0.89,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "ga@1e-05": {
+   "forget": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.93,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "graddiff@1e-05": {
+   "forget": {
+    "letter": 0.9,
+    "strict": 0.9,
+    "lenient": 0.9,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "B",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.92,
+    "strict": 0.93,
+    "lenient": 0.93,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "random_labels@1e-05": {
+   "forget": {
+    "letter": 0.91,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.91,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "finetune_retain@1e-05": {
+   "forget": {
+    "letter": 0.94,
+    "strict": 0.94,
+    "lenient": 0.94,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.93,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "salun@1e-05": {
+   "forget": {
+    "letter": 0.91,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.92,
+    "strict": 0.91,
+    "lenient": 0.91,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  },
+  "npo@1e-05": {
+   "forget": {
+    "letter": 0.92,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "A",
+     "D",
+     "B",
+     "C",
+     "A"
+    ]
+   },
+   "retain": {
+    "letter": 0.92,
+    "strict": 0.92,
+    "lenient": 0.92,
+    "example_outputs": [
+     "D",
+     "B",
+     "B",
+     "D",
+     "A"
+    ]
+   }
+  }
+ },
+ "mllmu": {
+  "vanilla": {
+   "forget": {
+    "token_f1": 0.3079497209083809,
+    "identity": 0.13513513513513514,
+    "n": 37
+   },
+   "retain": {
+    "token_f1": 0.3069544168698314,
+    "identity": 0.11,
+    "n": 100
+   }
+  },
+  "retrained": {
+   "forget": {
+    "token_f1": 0.2555261706867883,
+    "identity": 0.0,
+    "n": 37
+   },
+   "retain": {
+    "token_f1": 0.2903805941561479,
+    "identity": 0.1,
+    "n": 100
+   }
+  }
+ },
+ "summary": {
+  "mmbench1k": {
+   "letter": {
+    "vanilla_F": 0.99,
+    "retrained_F": 0.81,
+    "gate_gap": 0.17999999999999994
+   },
+   "strict": {
+    "vanilla_F": 0.99,
+    "retrained_F": 0.82,
+    "gate_gap": 0.17000000000000004
+   },
+   "lenient": {
+    "vanilla_F": 0.99,
+    "retrained_F": 0.82,
+    "gate_gap": 0.17000000000000004
+   },
+   "tau_letter_strict": 0.9302376918591335,
+   "tau_letter_lenient": 0.9266666666666667,
+   "tau_strict_lenient": 0.8903703622080278
+  },
+  "scienceqa": {
+   "letter": {
+    "vanilla_F": 0.95,
+    "retrained_F": 0.77,
+    "gate_gap": 0.17999999999999994
+   },
+   "strict": {
+    "vanilla_F": 0.95,
+    "retrained_F": 0.77,
+    "gate_gap": 0.17999999999999994
+   },
+   "lenient": {
+    "vanilla_F": 0.95,
+    "retrained_F": 0.77,
+    "gate_gap": 0.17999999999999994
+   },
+   "tau_letter_strict": 1.0,
+   "tau_letter_lenient": 1.0,
+   "tau_strict_lenient": 1.0
+  }
+ }
+}

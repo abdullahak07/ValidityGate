@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.pyc
+*.pt
+*.safetensors
+*.bin
+*.arrow
+*.tar.gz
+data_cache/
+checkpoints*/
+logs/
+*.log
+*.nan_bak
+.env

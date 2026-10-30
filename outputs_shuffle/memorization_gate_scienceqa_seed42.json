@@ -1,0 +1,20 @@
+{
+  "dataset": "scienceqa",
+  "seed": 42,
+  "scores": {
+    "vanilla": {
+      "forget": 0.98,
+      "retain": 0.97,
+      "test": 0.84
+    },
+    "retrained": {
+      "forget": 0.82,
+      "retain": 0.98,
+      "test": 0.78
+    }
+  },
+  "forget_gap": 0.16000000000000003,
+  "retain_gap": -0.010000000000000009,
+  "min_gap": 0.15,
+  "pass": true
+}

@@ -1,0 +1,11 @@
+{
+  "dataset": "scienceqa",
+  "method": "salun__lr3e-05",
+  "seed": 42,
+  "FA": 0.82,
+  "RA": 0.95,
+  "MIA": 0.26,
+  "AD": 27.59375,
+  "JS": 0.049925003200769424,
+  "retrained_distance": 0.846487505927778
+}

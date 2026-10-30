@@ -1,0 +1,11 @@
+{
+  "dataset": "scienceqa",
+  "method": "npo__lr3e-05",
+  "seed": 5508,
+  "FA": 0.91,
+  "RA": 0.94,
+  "MIA": 0.0,
+  "AD": 16.453125,
+  "JS": 0.014436815950830266,
+  "retrained_distance": 0.7982980847988075
+}

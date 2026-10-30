@@ -1,0 +1,11 @@
+{
+  "dataset": "mmbench1k",
+  "method": "salun__lr1e-05",
+  "seed": 42,
+  "FA": 0.85,
+  "RA": 0.92,
+  "MIA": 0.24,
+  "AD": 2.13671875,
+  "JS": 0.07761107385158539,
+  "retrained_distance": 0.8015151729332886
+}

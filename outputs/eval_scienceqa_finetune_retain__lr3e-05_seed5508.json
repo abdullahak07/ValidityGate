@@ -1,0 +1,11 @@
+{
+  "dataset": "scienceqa",
+  "method": "finetune_retain__lr3e-05",
+  "seed": 5508,
+  "FA": 0.92,
+  "RA": 0.88,
+  "MIA": 0.07000000000000006,
+  "AD": 4.44140625,
+  "JS": 0.007924799807369709,
+  "retrained_distance": 0.964832690927509
+}

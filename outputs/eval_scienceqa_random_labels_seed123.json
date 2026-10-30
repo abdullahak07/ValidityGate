@@ -1,0 +1,11 @@
+{
+  "dataset": "scienceqa",
+  "method": "random_labels",
+  "seed": 123,
+  "FA": 0.29,
+  "RA": 0.39,
+  "MIA": 0.06000000000000005,
+  "AD": 11.1328125,
+  "JS": 0.2071823924779892,
+  "retrained_distance": 1.27591473593558
+}

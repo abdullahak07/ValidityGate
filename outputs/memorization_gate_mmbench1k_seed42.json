@@ -1,0 +1,20 @@
+{
+  "dataset": "mmbench1k",
+  "seed": 42,
+  "scores": {
+    "vanilla": {
+      "forget": 0.99,
+      "retain": 0.95,
+      "test": 0.76
+    },
+    "retrained": {
+      "forget": 0.81,
+      "retain": 0.96,
+      "test": 0.74
+    }
+  },
+  "forget_gap": 0.17999999999999994,
+  "retain_gap": -0.010000000000000009,
+  "min_gap": 0.15,
+  "pass": true
+}

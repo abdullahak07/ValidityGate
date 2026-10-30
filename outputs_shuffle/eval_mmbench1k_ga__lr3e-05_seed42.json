@@ -1,0 +1,11 @@
+{
+  "dataset": "mmbench1k",
+  "method": "ga__lr3e-05",
+  "seed": 42,
+  "FA": 0.91,
+  "RA": 0.95,
+  "MIA": 0.0,
+  "AD": 10.1015625,
+  "JS": 0.014617028179208189,
+  "retrained_distance": 0.9499960618052306
+}

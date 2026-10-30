@@ -1,0 +1,11 @@
+{
+  "dataset": "scienceqa",
+  "method": "graddiff__lr3e-05",
+  "seed": 5508,
+  "FA": 0.89,
+  "RA": 0.9,
+  "MIA": 0.050000000000000044,
+  "AD": 3.58984375,
+  "JS": 0.01111326739192009,
+  "retrained_distance": 0.8730081342935705
+}

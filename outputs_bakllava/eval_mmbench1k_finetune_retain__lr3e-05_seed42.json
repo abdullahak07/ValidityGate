@@ -1,0 +1,11 @@
+{
+  "dataset": "mmbench1k",
+  "method": "finetune_retain__lr3e-05",
+  "seed": 42,
+  "FA": 1.0,
+  "RA": 1.0,
+  "MIA": 0.0,
+  "AD": 12.84375,
+  "JS": 0.013772275298833847,
+  "retrained_distance": 0.9144943066633155
+}

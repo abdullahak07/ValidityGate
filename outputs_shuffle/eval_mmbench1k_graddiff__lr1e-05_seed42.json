@@ -1,0 +1,11 @@
+{
+  "dataset": "mmbench1k",
+  "method": "graddiff__lr1e-05",
+  "seed": 42,
+  "FA": 0.99,
+  "RA": 0.98,
+  "MIA": 0.030000000000000027,
+  "AD": 5.71875,
+  "JS": 0.010049432450672522,
+  "retrained_distance": 0.8936929670333535
+}

@@ -1,0 +1,18 @@
+== mmbench1k (n=12 seed-42 models, lr 1e-4 and 3e-5)
+ gate, letter scorer: vanilla 0.99 retrained 0.81 gap 0.18
+ gate, old lenient/no-options: vanilla 0.82 retrained 0.78 gap 0.04 ; placebo vanilla 0.78
+ tau(letter FA, lenient FA)=+0.68  tau(letter FA, text-match FA)=-0.10
+ rho(lenient FA, D)=-0.74   rho(letter FA, D)=-0.89
+ range of FA across models: letter 0.18-0.97  lenient 0.44-0.87
+ lenient gold-placebo per model: mean 0.008, min -0.08 max 0.05
+ lowest FA (=best forgetting) letter: random_labels@3e-05  lenient: random_labels@1e-04
+ with options, lenient differs from letter by >=0.05: [('npo@1e-04', 0.67, 0.9), ('ga@3e-05', 0.3, 0.44)]
+== scienceqa (n=12 seed-42 models, lr 1e-4 and 3e-5)
+ gate, letter scorer: vanilla 0.95 retrained 0.77 gap 0.18
+ gate, old lenient/no-options: vanilla 0.67 retrained 0.68 gap -0.01 ; placebo vanilla 0.59
+ tau(letter FA, lenient FA)=+0.58  tau(letter FA, text-match FA)=+0.45
+ rho(lenient FA, D)=-0.78   rho(letter FA, D)=-0.72
+ range of FA across models: letter 0.25-0.93  lenient 0.21-0.70
+ lenient gold-placebo per model: mean 0.045, min -0.05 max 0.09
+ lowest FA (=best forgetting) letter: random_labels@1e-04  lenient: random_labels@1e-04
+ with options, lenient differs from letter by >=0.05: []

@@ -1,0 +1,11 @@
+{
+  "dataset": "mmbench1k",
+  "method": "npo__lr3e-05",
+  "seed": 123,
+  "FA": 0.93,
+  "RA": 0.99,
+  "MIA": 0.0,
+  "AD": 10.9296875,
+  "JS": 0.014490110286769099,
+  "retrained_distance": 0.8401656399241691
+}
