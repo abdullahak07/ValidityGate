@@ -134,7 +134,7 @@ def check_raw():
 
 def main():
     check_deps()
-    say("Reproducing: Evaluation Reliability in Multimodal Machine Unlearning (VGUA)\n")
+    say("Reproducing: Validity-Gated Evaluation of Multimodal Machine Unlearning (VGUA)\n")
     say("[1] Preparing reproduced/ from paper_analysis/")
     prepare()
     say("[2] Running the analysis scripts")
